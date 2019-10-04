@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//Усов Александр
+//Г“Г±Г®Гў ГЂГ«ГҐГЄГ±Г Г­Г¤Г°
 
 
 void fillArray(int* arr, int len) {
@@ -29,7 +29,7 @@ void swap(int *a, int *b) {
   *a = *b;
   *b = t;
 }
-//Задание 1
+//Г‡Г Г¤Г Г­ГЁГҐ 1
 void bubbleSort1(int* arr, int len) {
   int i;
   int j;
@@ -52,7 +52,7 @@ void bubbleSort2(int* arr, int len) {
   int j;
   int k = 0;
   for (i = 0; i < len; i++) {
-	for (j = 0; j < len - i; j++) {
+	for (j = 0; j < len - i + 1; j++) {
 	  if (arr[j] > arr[j + 1])
 		swap(&arr[j], &arr[j + 1]);
 		k++;
@@ -62,7 +62,7 @@ void bubbleSort2(int* arr, int len) {
 }
 
 
-//Задание 2
+//Г‡Г Г¤Г Г­ГЁГҐ 2
 void shekerSort(int *arr, int len)
 {
   int l = 0, r = len - 1; 
@@ -93,7 +93,7 @@ void shekerSort(int *arr, int len)
     l++; 
   }
 }
-//задание 3
+//Г§Г Г¤Г Г­ГЁГҐ 3
 void pigeonholeSort(int mi, int ma, int * a)
 {
  
